@@ -1,4 +1,42 @@
+# ==========================================
+# Archivos del sistema (macOS)
+# ==========================================
 .DS_Store
-.env
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Entorno de desarrollo (CLion / JetBrains)
+# ==========================================
+# Directorio de configuración del proyecto de CLion
+.idea/
+
+# Carpetas de compilación generadas automáticamente por CMake / CLion
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+
+# ==========================================
+# Archivos de compilación y ejecutables (C / C++)
+# ==========================================
+# Objetos y librerías compiladas
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Archivos de salida / Ejecutables de macOS/Linux sin extensión
+*.out
+*.exe
+
+# Archivos de depuración y logs
+*.dSYM/
 *.log
+
 

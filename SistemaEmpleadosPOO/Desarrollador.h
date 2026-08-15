@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Empleado.h"
 #include <string>
 
@@ -9,7 +8,6 @@ private:
     std::string lenguajePrincipal;
 
 public:
-    Desarrollador(const std::string& nombre, const std::string& lenguajePrincipal);
-
+    Desarrollador(std::string nombre, std::string lenguajePrincipal, std::string correo);
     void trabajar() const override;
 };

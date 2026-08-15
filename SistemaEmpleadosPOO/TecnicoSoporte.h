@@ -1,11 +1,9 @@
 #pragma once
-
 #include "Empleado.h"
 
 class TecnicoSoporte : public Empleado
 {
 public:
-    explicit TecnicoSoporte(const std::string& nombre);
-
+    TecnicoSoporte(std::string nombre, std::string correo);
     void trabajar() const override;
 };

@@ -5,8 +5,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(untitled main.cpp
         empleado.h
-        Empleado.cpp
+        empleado.cpp
         empleado.h
-        Desarrollador.h
+        desarrollador.h
         desarrollador.cpp
-        tecnicoSoporte.h)
+        tecnicoSoporte.h
+        Administrador.h
+        "Administrador .cpp"
+        TecnicoSoporte.cpp
+)
